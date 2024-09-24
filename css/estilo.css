@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+section{
+    background-color: white;
+    width: 384px;
+    height: 492px;
+    border: 1px solid black;
+    padding: 24px;
+    border-radius: 20px;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+.imagem {
+
+    border-radius: 10px;
+    width: 384px;
+   
+
+}
+.texto{
+    margin: 24px 0;
+    
+    justify-content: left;
+}
+.cP1{
+    width: 102px;
+    height: 29px;
+    background-color: yellow;
+    border-radius: 4px;
+    
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+    line-height: 29px;
+}
+.p2{
+    padding: 12px 0;
+    color: rgb(175, 175, 175);
+}
+.p3{
+    padding: 12px 0;
+    color: rgb(175, 175, 175);
+}
+
+.avatar{
+    display: inline-flex;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
+.autor {
+    display: flex;
+    padding: 0 2px;
+    gap: 10px;
+    
+    
+}
+
+.tony{
+    display: flex;
+    
+    align-items: center;
+}
