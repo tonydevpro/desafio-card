@@ -79,3 +79,12 @@ section{
     
     align-items: center;
 }
+
+@media (max-width: 900px) {
+    .geral{
+    max-width: 100%;
+    }
+    .caixa img{
+        max-width: 100%;
+    }
+}
